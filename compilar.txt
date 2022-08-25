@@ -1,2 +1,4 @@
 para compilar:
 gcc game.c -o game -lallegro -lallegro_font -lallegro_ttf -lallegro_primitives -lallegro_audio -lallegro_acodec -lallegro_image
+
+./game
