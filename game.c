@@ -129,10 +129,10 @@ int main() {
     ALLEGRO_SAMPLE* newnivel = al_load_sample("audio/newnivel.mp3");
     must_init(newnivel, "newnivel");
 
-    ALLEGRO_FONT* font = al_load_font("arial.ttf", 30, 0);
+    ALLEGRO_FONT* font = al_load_font("font/arial.ttf", 30, 0);
     must_init(font, "font");
 
-    ALLEGRO_FONT* font2 = al_load_font("arial.ttf", 20, 0);
+    ALLEGRO_FONT* font2 = al_load_font("font/arial.ttf", 20, 0);
     must_init(font2, "font2");
     must_init(al_init_image_addon(), "image addon");
    
