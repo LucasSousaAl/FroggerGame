@@ -136,57 +136,57 @@ int main() {
     must_init(font2, "font2");
     must_init(al_init_image_addon(), "image addon");
    
-    ALLEGRO_BITMAP* cenarionovo = al_load_bitmap("cenarionovo.png");
+    ALLEGRO_BITMAP* cenarionovo = al_load_bitmap("images/cenarionovo.png");
     must_init(cenarionovo, "cenarionovo");
-    ALLEGRO_BITMAP* inicial = al_load_bitmap("inicial.png");
+    ALLEGRO_BITMAP* inicial = al_load_bitmap("images/inicial.png");
     must_init(inicial, "inicial");
-    ALLEGRO_BITMAP* gameoverimg = al_load_bitmap("gameover.png");
+    ALLEGRO_BITMAP* gameoverimg = al_load_bitmap("images/gameover.png");
     must_init(gameoverimg, "gameoverimg");
 
     //----------------------------Veiculos-------------------------
-    ALLEGRO_BITMAP* caminhao = al_load_bitmap("caminhao.png");
+    ALLEGRO_BITMAP* caminhao = al_load_bitmap("images/caminhao.png");
     must_init(caminhao, "caminhao");
-    ALLEGRO_BITMAP* carro1 = al_load_bitmap("carro 1.png");
+    ALLEGRO_BITMAP* carro1 = al_load_bitmap("images/carro 1.png");
     must_init(carro1, "carro1");
-    ALLEGRO_BITMAP* carro2 = al_load_bitmap("carro2.png");
+    ALLEGRO_BITMAP* carro2 = al_load_bitmap("images/carro2.png");
     must_init(carro2, "carro2");
-    ALLEGRO_BITMAP* carro3 = al_load_bitmap("carro3.png");
+    ALLEGRO_BITMAP* carro3 = al_load_bitmap("images/carro3.png");
     must_init(carro3, "carro3");
 
     //----------------------Sapos---------------------------
-    ALLEGRO_BITMAP* sapofim = al_load_bitmap("sapofim.png");
+    ALLEGRO_BITMAP* sapofim = al_load_bitmap("images/sapofim.png");
     must_init(sapofim, "sapofim");
-    ALLEGRO_BITMAP* sapo1 = al_load_bitmap("sapo1.png");
+    ALLEGRO_BITMAP* sapo1 = al_load_bitmap("images/sapo1.png");
     must_init(sapo1, "sapo1");
-    ALLEGRO_BITMAP* sapoaux = al_load_bitmap("sapo1.png");
+    ALLEGRO_BITMAP* sapoaux = al_load_bitmap("images/sapo1.png");
     must_init(sapoaux, "sapoaux");
-    ALLEGRO_BITMAP* sapoe = al_load_bitmap("sapoe.png");
+    ALLEGRO_BITMAP* sapoe = al_load_bitmap("images/sapoe.png");
     must_init(sapoe, "sapoe");
-    ALLEGRO_BITMAP* sapoup = al_load_bitmap("sapoup.png");
+    ALLEGRO_BITMAP* sapoup = al_load_bitmap("images/sapoup.png");
     must_init(sapoup, "sapoup");
-    ALLEGRO_BITMAP* saporigth = al_load_bitmap("saporigth.png");
+    ALLEGRO_BITMAP* saporigth = al_load_bitmap("images/saporigth.png");
     must_init(saporigth, "saporigth");
-    ALLEGRO_BITMAP* life = al_load_bitmap("life.png");
+    ALLEGRO_BITMAP* life = al_load_bitmap("images/life.png");
     must_init(life, "life");
-    ALLEGRO_BITMAP* turtles = al_load_bitmap("turtles.png");
+    ALLEGRO_BITMAP* turtles = al_load_bitmap("images/turtles.png");
     must_init(turtles, "turtles");
 
     //-----------------------Toras----------------------
-    ALLEGRO_BITMAP* tora1 = al_load_bitmap("tora1.png");
+    ALLEGRO_BITMAP* tora1 = al_load_bitmap("images/tora1.png");
     must_init(tora1, "tora1");
-    ALLEGRO_BITMAP* tora2 = al_load_bitmap("tora2.png");
+    ALLEGRO_BITMAP* tora2 = al_load_bitmap("images/tora2.png");
     must_init(tora2, "tora2");
-    ALLEGRO_BITMAP* morte = al_load_bitmap("morte.png");
+    ALLEGRO_BITMAP* morte = al_load_bitmap("images/morte.png");
     must_init(morte, "morte");
 
     //-------------------tartarugas----------------------
-    ALLEGRO_BITMAP* sprite = al_load_bitmap("sprite.png");
+    ALLEGRO_BITMAP* sprite = al_load_bitmap("images/sprite.png");
     must_init(sprite, "sprite");
-    ALLEGRO_BITMAP* tartaruga1 = al_load_bitmap("tartaruga1.png");
+    ALLEGRO_BITMAP* tartaruga1 = al_load_bitmap("images/tartaruga1.png");
     must_init(tartaruga1, "tartaruga1");
-    ALLEGRO_BITMAP* tartaruga2 = al_load_bitmap("tartaruga2.png");
+    ALLEGRO_BITMAP* tartaruga2 = al_load_bitmap("images/tartaruga2.png");
     must_init(tartaruga2, "tartaruga2");
-    ALLEGRO_BITMAP* tartaruga3 = al_load_bitmap("tartaruga3.png");
+    ALLEGRO_BITMAP* tartaruga3 = al_load_bitmap("images/tartaruga3.png");
     must_init(tartaruga3, "tartaruga3");
 
 
