@@ -111,22 +111,22 @@ int main() {
     must_init(al_reserve_samples(16), "reserve samples");
 
     //--------------TRILHA SONORA--------------------
-    ALLEGRO_SAMPLE* music1 = al_load_sample("music1.wav");
+    ALLEGRO_SAMPLE* music1 = al_load_sample("audio/music1.wav");
     must_init(music1, "music1");
     ALLEGRO_SAMPLE_INSTANCE* inst_music1 = NULL;
     inst_music1 = al_create_sample_instance(music1);
 
-    ALLEGRO_SAMPLE* pulo = al_load_sample("pulo.mp3");
+    ALLEGRO_SAMPLE* pulo = al_load_sample("audio/pulo.mp3");
     must_init(pulo, "pulo");
 
-    ALLEGRO_SAMPLE* batida = al_load_sample("batida.mp3");
+    ALLEGRO_SAMPLE* batida = al_load_sample("audio/batida.mp3");
     must_init(batida, "batida");
   
-    ALLEGRO_SAMPLE* agua = al_load_sample("agua.mp3");
+    ALLEGRO_SAMPLE* agua = al_load_sample("audio/agua.mp3");
     must_init(agua, "agua");
-    ALLEGRO_SAMPLE* casinha = al_load_sample("casinha.mp3");
+    ALLEGRO_SAMPLE* casinha = al_load_sample("audio/casinha.mp3");
     must_init(casinha, "casinha");
-    ALLEGRO_SAMPLE* newnivel = al_load_sample("newnivel.mp3");
+    ALLEGRO_SAMPLE* newnivel = al_load_sample("audio/newnivel.mp3");
     must_init(newnivel, "newnivel");
 
     ALLEGRO_FONT* font = al_load_font("arial.ttf", 30, 0);
